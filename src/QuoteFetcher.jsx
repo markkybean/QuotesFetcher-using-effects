@@ -26,7 +26,7 @@ export default function QuoteFetcher() {
         className="card shadow p-4 text-center"
         style={{ maxWidth: "600px", width: "100%" }}
       >
-        <h1 className="mb-3 display-5 text-primary">
+        <h1 className="mb-3 display-5">
           {quote.quote || "Fetching quote..."}
         </h1>
         <p className="text-muted fst-italic">— {quote.author || "Unknown"}</p>
